@@ -32,8 +32,10 @@ class String
   end
 
   def count_sentences
-    puts self
+    puts 
+    print self.split(/[.?!]+/)
      self.split(/[.?!]+/).count
+     
     # self.count('.')+self.count('!')+self.count('?')
     # print self
     # self.length
