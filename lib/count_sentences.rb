@@ -33,7 +33,7 @@ class String
 
   def count_sentences
     puts 
-    print self.split(/[.?!]+/)
+    print self.split(/[.?!]/)
      self.split(/[.?!]+/).count
      
     # self.count('.')+self.count('!')+self.count('?')
